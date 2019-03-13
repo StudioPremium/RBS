@@ -1,0 +1,39 @@
+<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalTitle">Получить консультацию</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form name="consultationFeedbackForm" method="post" action="dist/server/feedback.php" class="form form_needs-validation">
+                    <input name="consultationFeedback" type="hidden">
+                    <div class="form-group">
+                        <label for="consultationFeedback-name">Имя</label>
+                        <input name="name" type="text" class="form-control" id="consultationFeedback-name" placeholder="Ваше имя *" required>
+                        <div class="valid-message"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="consultationFeedback-tel">Телефон</label>
+                        <input name="tel" type="tel" class="form-control" id="consultationFeedback-tel" placeholder="Телефон для связи *" required>
+                        <div class="valid-message"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="consultationFeedback-Email">E-mail</label>
+                        <input name="email" type="email" class="form-control" id="consultationFeedback-Email" placeholder="Телефон для связи *" required>
+                        <div class="valid-message"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="consultationFeedback-message">Комментарий</label>
+                        <textarea name="message" class="form-control" id="consultationFeedback-message" rows="3" placeholder="Описание задачи или проблемы"></textarea>
+                    </div>
+                    <small class="form-text text-muted mb-2">Поля обозначенные * обязательны;</small>
+                    <small class="form-text text-muted">Отправляя данную форму, я даю <a href="#">согласие на обработку персональных данных</a></small>
+                    <button type="submit" class="btn btn-primary mt-4" disabled>Отправить запрос</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

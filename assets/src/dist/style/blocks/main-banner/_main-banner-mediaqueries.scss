@@ -1,0 +1,15 @@
+@media (max-width: $screen-width-sm) {
+	.main-banner {
+		&__itm {
+			background-position-x: right;
+		}
+	}
+}
+
+@media (max-width: $screen-width-xs) {
+	.main-banner {
+		&__text {
+			font-size: 1.5rem;
+		}
+	}
+}

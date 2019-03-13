@@ -1,0 +1,32 @@
+.enter-box {
+	font-size: 0.875rem;
+	display: flex;
+	line-height: 1.2;
+
+	&__user {
+		margin-right: 1rem;
+		text-decoration: underline;
+		position: relative;
+
+		&:before {
+			position: absolute;
+			content: " ";
+			display: block;
+			width: 24px;
+			height: 24px;
+			left: -34px;
+			top: -4px;
+			background-repeat: no-repeat;
+			background-image: url(../img/sprite.png);
+		}
+	}
+	&__sign {
+		text-decoration: underline;
+		&_type_out {
+			color: #e74700;
+			&:hover {
+				color: darken(#e74700, 15%);
+			}
+		}
+	}
+}

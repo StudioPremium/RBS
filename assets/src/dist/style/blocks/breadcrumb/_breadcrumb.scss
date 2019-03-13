@@ -1,0 +1,10 @@
+.breadcrumb {
+	font-size: 0.875rem;
+	a {
+		text-decoration: underline;
+		color: rgb(88, 88, 88);
+		&:hover {
+			color: $link-hover-color;
+		}
+	}
+}

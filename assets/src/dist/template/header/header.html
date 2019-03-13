@@ -1,0 +1,130 @@
+<header id="header" class="header">
+    <div class="header__top d-none d-sm-block">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-xl-4 col-lg-5 col-md-6">
+                    <ul class="page-nav header__page-nav float-right float-md-left">
+                        <li class="page-nav__itm page-nav__itm_state_active">
+                            <span class="page-nav__link">Акции</span>
+                        </li>
+                        <li class="page-nav__itm">
+                            <a href="#" class="page-nav__link">Новости</a>
+                        </li>
+                        <li class="page-nav__itm">
+                            <a href="#" class="page-nav__link">О компании</a>
+                        </li>
+                        <li class="page-nav__itm">
+                            <a href="#" class="page-nav__link">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class=" col-xl-3 col-lg-4 col-md-6">
+                    <div class="enter-box float-right">
+                        <a href="#" class="enter-box__user">Антон Будылин</a>
+                        <a href="#" class="enter-box__sign enter-box__sign_type_out">Выход</a>
+                        <!--<a href="#" class="enter-box__sign enter-box__sign_type_in">Вход</a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-3 d-flex d-sm-block align-items-center justify-content-between">
+                    <button class="navbar-toggler d-block d-sm-none mt-2 mr-3" type="button">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a href="#" class="logo">
+                        <div class="logo__img">
+                            <img class="img-fluid" src="dist/img/logo.png" alt="РБС">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-9 mt-3  mt-md-0  d-none d-sm-block">
+                    <form name="search" class="header__search search" method="post" action="dist/search.php">
+                        <input id="search-input" name="searchQuery" type="text" class="search__input" placeholder="Поиск по каталогу">
+                        <label for="search-input"></label>
+                    </form>
+                </div>
+                <div class="col-lg-5 col-md-12 mt-3 mt-sm-4 mt-lg-0 d-flex flex-wrap flex-sm-nowrap align-items-center justify-content-between">
+                    <ul class="header__contacts contacts">
+                        <li class="contacts__itm">
+                            <a class="contacts__link" href="tel:+74912993848">
+                                <span class="contacts__text contacts__text_color_grey">+7 4912</span> 99-38-48
+                            </a>
+                        </li>
+                        <li class="contacts__itm">
+                            <a class="contacts__link" href="mailto:mail@rbs62.ru">
+                                <span class="contacts__text contacts__text_color_grey contacts__text_size_sm">mail@rbs62.ru</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-primary header__consult-btn consult-btn d-sm-block d-none" data-toggle="modal" data-target="#modal" data-whatever="Получить консультацию">Получить консультацию</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__bottom">
+        <div class="container">
+            <nav class="navbar navbar-expand-xl navbar-light">
+                <button class="navbar-toggler d-none d-sm-block d-xl-none" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSoftware" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Программное обеспечение
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownSoftware">
+                                <a class="dropdown-item" href="#">Программное обеспечение 1</a>
+                                <a class="dropdown-item" href="#">Программное обеспечение 2</a>
+                                <a class="dropdown-item" href="#">Программное обеспечение 3</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSignature" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Электронные подписи
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownSignature">
+                                <a class="dropdown-item" href="#">Электронные подписи 1</a>
+                                <a class="dropdown-item" href="#">Электронные подписи 2</a>
+                                <a class="dropdown-item" href="#">Электронные подписи 3</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCRM" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Внедрение CRM
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownCRM">
+                                <a class="dropdown-item" href="#">Внедрение CRM 1</a>
+                                <a class="dropdown-item" href="#">Внедрение CRM 2</a>
+                                <a class="dropdown-item" href="#">Внедрение CRM 3</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownEquipment" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Оборудование
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownEquipment">
+                                <a class="dropdown-item" href="#">Оборудование 1</a>
+                                <a class="dropdown-item" href="#">Оборудование 2</a>
+                                <a class="dropdown-item" href="#">Оборудование 3</a>
+                            </div>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">IT-аутсорсинг <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Разработка веб-приложений</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+<div class="mobile-menu">
+
+</div>

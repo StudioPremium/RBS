@@ -1,0 +1,35 @@
+// Переопределение дефолтных значений переменных Bootstrap 4 и определение своих
+@import "variables";
+
+// Подключение нужных SCSS исходников Bootstrap 4
+@import "../../../../node_modules/bootstrap/scss/functions";
+@import "../../../../node_modules/bootstrap/scss/variables";
+@import "../../../../node_modules/bootstrap/scss/mixins";
+@import "../../../../node_modules/bootstrap/scss/reboot";
+@import "../../../../node_modules/bootstrap/scss/grid";
+@import "../../../../node_modules/bootstrap/scss/buttons";
+@import "../../../../node_modules/bootstrap/scss/transitions";
+@import "../../../../node_modules/bootstrap/scss/nav";
+@import "../../../../node_modules/bootstrap/scss/navbar";
+@import "../../../../node_modules/bootstrap/scss/close";
+@import "../../../../node_modules/bootstrap/scss/utilities";
+// модальное окно
+@import "../../../../node_modules/bootstrap/scss/modal";
+// изображения
+@import "../../../../node_modules/bootstrap/scss/images";
+// хлебные крошки
+@import "../../../../node_modules/bootstrap/scss/breadcrumb";
+// выпадающее меню
+@import "../../../../node_modules/bootstrap/scss/dropdown";
+// формы
+@import "../../../../node_modules/bootstrap/scss/forms";
+// таблицы
+@import "../../../../node_modules/bootstrap/scss/tables";
+
+// CSS для slick-carousel
+@import "../../../../node_modules/slick-carousel/slick/slick.scss";
+@import "../../../../node_modules/slick-carousel/slick/slick-theme.scss";
+
+
+// Подключение своих SCSS файлов
+@import "my";

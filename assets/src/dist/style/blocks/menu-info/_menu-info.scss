@@ -1,0 +1,27 @@
+.menu-info {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	&__itm {
+		&_type_active {
+			.menu-info__text {
+				color: white;
+				background-image: linear-gradient( 0deg, rgb(0,106,225) 0%, rgb(0,42,118) 100%);
+			}
+		}
+	}
+	&__text {
+		font-size: 0.875rem;
+		color: $body-color;
+		display: block;
+		padding: 1.375rem 0.875rem;
+		background-color: #f9f9f9;
+		border-bottom: 1px solid rgb(225, 225, 225);
+		&:hover,
+		&:focus {
+			color: white;
+			text-decoration: none;
+			background-image: linear-gradient( 0deg, rgb(0,106,225) 0%, rgb(0,42,118) 100%);
+		}
+	}
+}

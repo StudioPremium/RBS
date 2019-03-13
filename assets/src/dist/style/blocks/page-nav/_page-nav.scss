@@ -1,0 +1,19 @@
+.page-nav {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	line-height: 1.2;
+	&__itm {
+
+	}
+
+	&__link {
+		color: $primary;
+		font-size: 0.875rem;
+		padding: 0 0.5rem;
+	}
+}
+
+@import "page-nav-mediaqueries";

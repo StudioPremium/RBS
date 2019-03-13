@@ -1,0 +1,55 @@
+.slick-next, .slick-prev {
+	top: 30%;
+	transform: translate(0,0);
+	height: 92px;
+	width: 46px;
+	background-repeat: no-repeat;
+    background-size: cover;
+	&:hover, &:focus {
+        outline: none;
+        background-color: transparent;
+        color: transparent;
+        &:before {
+            opacity: $slick-opacity-on-hover;
+        }
+    }
+    &.slick-disabled {
+    	opacity: 0.5;
+    }
+}
+ 
+.slick-next {
+	right: -61px;
+	background-image: url(../img/arrow-next.png);
+	&:hover, &:focus {
+        background-image: url(../img/arrow-next.png);
+    }
+}
+
+.slick-prev {
+	left: -61px;
+	background-image: url(../img/arrow-prev.png);
+	&:hover, &:focus {
+        background-image: url(../img/arrow-prev.png);
+    }
+}
+.slick-dots {
+    bottom: -40px;
+    .slick-active {
+        button {
+            background-color: #d84c00;
+        }
+    }
+    li {
+        button {
+            border-radius: 50%;
+            background-color: #959595;
+        }
+    }
+}
+
+.slick-list {
+    .slick-loading & {
+        background: red slick-image-url("preloader.svg") center center no-repeat;
+    }
+}

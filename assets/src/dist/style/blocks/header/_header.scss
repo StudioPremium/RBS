@@ -1,0 +1,25 @@
+.header {
+	&__top {
+		background-color: #eeeeee;
+		padding-top: 0.75rem;
+		padding-bottom: 0.5rem;
+	}
+
+	&__center {
+		padding-top: 0.625rem;
+		padding-bottom: 0.875rem;
+	}
+	&__consult-btn {
+		margin-left: 0.75rem;
+	}
+	&__contacts {
+		margin-left: 1rem;
+	}
+
+	&__bottom {
+		background-color: #424f60;
+	}
+}
+
+
+@import "header-mediaqueries";

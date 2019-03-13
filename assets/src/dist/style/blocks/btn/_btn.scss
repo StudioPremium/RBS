@@ -1,0 +1,36 @@
+.btn {
+	&-primary {
+		background-image: linear-gradient( 0deg, rgb(0,106,225) 0%, rgb(0,42,118) 100%);
+		box-shadow: 0px 5px 5px 0px rgba(0, 117, 178, 0.34);
+		border: none;
+		&:not(:disabled):hover,
+		&:not(:disabled):focus {
+			background-image: linear-gradient( 0deg, darken(rgb(0,106,225), 10%) 0%, darken(rgb(0,42,118), 10%) 100%);
+		}
+		&:not(:disabled):focus,
+		&:not(:disabled):active {
+			box-shadow: 0 0 0 0.2rem rgba(0, 117, 178,.5);
+		}
+	}
+	&-secondary {
+		background-image: linear-gradient( 0deg, rgb(225,79,0) 0%, rgb(118,44,0) 100%);
+  		box-shadow: 0px 5px 5px 0px rgba(178, 63, 0, 0.34);
+  		border: none;
+  		&:not(:disabled):hover,
+  		&:not(:disabled):focus {
+  			background-image: linear-gradient( 0deg, darken(rgb(225,79,0), 10%) 0%, darken(rgb(118,44,0), 10%) 100%);
+
+  		}
+  		&:not(:disabled):focus,
+  		&:not(:disabled):active {
+  			box-shadow: 0 0 0 0.2rem rgba(178, 63, 0,.5) !important;
+  		}
+	}
+	&-lg {
+		border-radius: 2rem;
+		padding: 18px 66px;
+		font-size: 14px;
+	}
+}
+
+@import "btn-mediaqueries";

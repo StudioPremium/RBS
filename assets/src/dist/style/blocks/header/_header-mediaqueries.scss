@@ -1,0 +1,34 @@
+@media (max-width: $screen-width-sm) {
+	.header {
+		&__page-nav {
+			justify-content: space-between;
+			margin-bottom: 1rem;
+			.page-nav__itm {
+				&:last-child {
+					.page-nav__link {
+						padding-right: 0;
+					}
+				}
+			}
+		}
+		.logo {
+			display: flex;
+			justify-content: center;
+		}
+	}
+}
+@media (max-width: $screen-width-xs) {
+	.header {
+		&__consult-btn {
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 1rem;
+		}
+		&__contacts {
+			flex-direction: row;
+			justify-content: space-between;
+			margin-left: 0;
+			width: 100%;
+		}
+	}
+}

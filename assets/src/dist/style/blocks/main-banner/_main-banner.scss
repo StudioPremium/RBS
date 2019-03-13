@@ -1,0 +1,21 @@
+.main-banner {
+	&__itm {
+		background-repeat: no-repeat;
+		background-position-y: bottom;
+		background-position-x: center;
+		background-size: cover;
+		min-height: 400px;
+		padding-top: 5.625rem;
+		padding-bottom: 5.625rem;
+	}
+	&__text {
+		font-size: 2rem;
+		color: black;
+		font-weight: bold;
+	}
+	&__btn {
+		margin-top: 2.5rem;
+	}
+}
+
+@import "main-banner-mediaqueries";

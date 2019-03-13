@@ -1,0 +1,30 @@
+@media (max-width: $screen-width-sm) {
+    .card-product {
+
+        &__content {
+            padding: 1.5rem 1rem;
+            background-color: #f5f5f5;
+            overflow: hidden;
+        }
+
+    }
+
+}
+
+@media (max-width: $screen-width-sm) {
+	.card-product {
+
+		&__img {
+	
+			img.slick-loading {
+				padding-top: 263px;
+				width: 100%;
+				max-height: 263px;
+				background-image: url(../img/preloader.svg);
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-color: #f5f5f5;
+			}
+		}
+	}
+}

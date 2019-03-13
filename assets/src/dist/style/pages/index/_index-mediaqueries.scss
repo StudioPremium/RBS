@@ -1,0 +1,56 @@
+@media (max-width: $screen-width-lg) {
+	.index-signature-itm {
+		min-height: 300px;
+	}
+}
+
+@media (max-width: $screen-width-md) {
+	.index-advantages {
+		flex-wrap: wrap;
+		
+		&__itm {
+			width: 50%;
+			margin-bottom: 2rem;
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+	}
+	.index-signature-itm {
+		min-height: auto;
+		margin-bottom: 2rem;
+		&__text {
+			margin-bottom: 1.5rem;
+		}
+	}
+}
+
+@media (max-width: $screen-width-xs) {
+	.index-advantages {
+		&__caption {
+			font-size: 0.875rem;
+		}
+	}
+	.index-feedback {
+		&__text {
+			font-size: 1.25rem;
+		}
+	}
+	.index-signature-itm {
+		flex-direction: column;
+		align-items: center;
+		&__content {
+			width: 100%;
+			margin-left: 0;
+			align-items: center;
+		}
+
+		&__title {
+			margin-top: 1.5rem;
+			text-align: center;
+		}
+		&__btn {
+			width: 100%;
+		}
+	}
+
+}

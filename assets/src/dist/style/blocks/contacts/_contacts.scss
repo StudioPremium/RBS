@@ -1,0 +1,32 @@
+.contacts {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &__link {
+        font-size: 1.125rem;
+        font-weight: bold;
+        color: #000000;
+        &:hover,
+        &:focus {
+            text-decoration: none;
+            color: $primary;
+            &>*{
+                color: $primary;
+            }
+        }
+    }
+
+    &__text {
+        &_size_sm {
+            font-size: 0.875rem;
+            font-weight: normal;
+        }
+        &_color_grey {
+            color: #505050;
+        }
+    }
+}

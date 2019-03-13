@@ -1,0 +1,18 @@
+@media (max-width: $screen-width-md) {
+	.footer {
+		&__nav {
+			flex-wrap: wrap;
+		}
+	}
+	.footer-menu {
+		margin-bottom: 1rem;
+	}
+}
+
+@media (max-width: $screen-width-sm) {
+	.footer {
+		&__nav {
+			flex-direction: column;
+		}
+	}
+}
